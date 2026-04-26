@@ -80,3 +80,4 @@ def new_order(request):
             product.save()
         serializer = OrderSerializer(order,many=False)
         return Response(serializer.data)
+##########################
